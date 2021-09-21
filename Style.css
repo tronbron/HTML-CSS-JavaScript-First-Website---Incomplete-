@@ -53,19 +53,15 @@ h1{
   display: flex;
 }
 .box{
-    display: table;
-    table-layout: auto;
-    position: relative;
-    border: 10px solid transparent;
-    height: 100px;
-    width: 10px;
-    padding: 0px 0px 80px 0px;
-    margin: 15px 0px 0px 50px;
-    background-color: rgba(231, 231, 231, 0.534);
-}
-.box img{
-    position: absolute;
-    top: 0;
+  display: table;
+  table-layout: auto;
+  position: relative;
+  border: 10px solid transparent;
+  height: 100px;
+  width: 10px;
+  padding: 0px 0px 80px 0px;
+  margin: 15px 0px 0px 50px;
+  background-color: rgba(231, 231, 231, 0.534);
 }
 h2{
   text-align: left;
@@ -73,3 +69,21 @@ h2{
 .green-text { color: #178A27; }
 .blue-text { color: #1686C1; }
 .gray-text { color: gray; }
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {background-color: #178A27;}
+.button1:hover{background: #449D44; transition: 300ms ;}
+.button2 {background-color: #1686C1;}
+.button2:hover{background: #31B0D5; transition: 300ms ;}
+.button3 {background-color: #852406;}
+.button3:hover{background: #C9302C; transition: 300ms ;}
