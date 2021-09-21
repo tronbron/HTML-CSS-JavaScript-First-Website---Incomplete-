@@ -1,0 +1,75 @@
+
+nav {
+  margin: 0px;
+  padding: 0px;
+  height: 80px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+  text-align: center;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+}
+body {
+  margin: 0px -10px;
+  padding: 0px;
+}
+nav ul li {
+  display: inline-block;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  margin: -5px 10px;
+  padding: 13px 20px;
+}
+nav ul li:hover{
+    background-color: gray;
+    transition: 300ms ;
+    cursor: pointer;
+}
+h1{
+    background-image:url("file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/bg-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 230px 0;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 0px 0px #000000;
+}
+.about-us{
+  text-align: justify;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  padding: 10px 10px;
+  margin: 10px -10px;
+  display: flex;
+}
+.box{
+    display: table;
+    table-layout: auto;
+    position: relative;
+    border: 10px solid transparent;
+    height: 100px;
+    width: 10px;
+    padding: 0px 0px 80px 0px;
+    margin: 15px 0px 0px 50px;
+    background-color: rgba(231, 231, 231, 0.534);
+}
+.box img{
+    position: absolute;
+    top: 0;
+}
+h2{
+  text-align: left;
+}
+.green-text { color: #178A27; }
+.blue-text { color: #1686C1; }
+.gray-text { color: gray; }
