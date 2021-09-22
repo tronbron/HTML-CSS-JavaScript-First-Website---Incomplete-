@@ -49,19 +49,23 @@ h1{
   text-align: justify;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   padding: 10px 10px;
-  margin: 10px -10px;
+  margin: 50px 0px 0px 90px;
   display: flex;
 }
 .box{
   display: table;
-  table-layout: auto;
   position: relative;
+  table-layout:auto;
   border: 10px solid transparent;
   height: 100px;
   width: 10px;
   padding: 0px 0px 80px 0px;
   margin: 15px 0px 0px 50px;
   background-color: rgba(231, 231, 231, 0.534);
+}
+.box img{
+  margin: -10px;
+  vertical-align: top;
 }
 h2{
   text-align: left;
@@ -72,14 +76,16 @@ h2{
 
 .button {
   border: none;
+  position: absolute;
   padding: 15px 32px;
   color: white;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
 }
 .button1 {background-color: #178A27;}
 .button1:hover{background: #449D44; transition: 300ms ;}
