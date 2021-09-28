@@ -1,74 +1,116 @@
-
+body {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif, Arial, Helvetica!important;
+}
 nav {
   margin: 0px;
   padding: 0px;
   height: 80px;
-  background: black;
-  color: white;
   font-size: 20px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+  background: #40475a;
+  color: white;
   text-align: center;
   position: fixed;
   top:0;
   right: 0;
   left: 0;
+  z-index: 5;
 }
-body {
-  margin: 0px -10px;
-  padding: 0px;
-}
-nav ul li {
+nav ul li{
   display: inline-block;
-  background-color: transparent;
   border-style: solid;
-  border-color: white;
+  border-color: #646d7c;
   border-width: 1px;
-  margin: -5px 10px;
   padding: 13px 20px;
+  margin: -5px 10px;
 }
 nav ul li:hover{
-    background-color: gray;
+    background-color: #49505F;
     transition: 300ms ;
     cursor: pointer;
 }
 h1{
     background-image:url("file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/bg-1.jpg");
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     background-attachment: fixed;
-    padding: 230px 0;
-    margin: 0px;
+    background-size: 100% 100%;
+    position: relative;
+    text-align:center;
+    color: white;
+    font-weight: 10;
     width: 100%;
     height: 100%;
-    color: white;
-    text-align: center;
+    margin-top: 80px;
+    padding-top: 180px;
+    padding-bottom: 270px;
     text-shadow: 3px 0px 0px #000000;
 }
 .about-us{
   text-align: justify;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  padding: 10px 10px;
-  margin: 50px 0px 0px 90px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  margin-left: 150px;
 }
 .box{
   display: table;
-  position: relative;
   table-layout:auto;
+  position: relative;
   border: 10px solid transparent;
   height: 100px;
-  width: 10px;
-  padding: 0px 0px 80px 0px;
-  margin: 15px 0px 0px 50px;
+  width: 10%;
+  padding-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 0px;
   background-color: rgba(231, 231, 231, 0.534);
 }
 .box img{
-  margin: -10px;
   vertical-align: top;
+  margin: -10px;
+}
+.about-us2{
+  text-align: justify;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 80%;
+  height: 100%;
+  margin-top: 80px;
+}
+.box2{
+  float:left;
+  position: relative;
+  border: 10px solid transparent;
+  flex: 1;
+  height: 100%;
+  width: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  margin-left: 25px;
+  background-color: rgba(231, 231, 231, 0.534);
+}
+.box2 img{
+  vertical-align: top;
+  margin: -10px;
+  margin-left: -23px;
 }
 h2{
   text-align: left;
+}
+h3{
+  text-align: center;
+  font-size: 22px;
 }
 .green-text { color: #178A27; }
 .blue-text { color: #1686C1; }
@@ -76,15 +118,15 @@ h2{
 
 .button {
   border: none;
-  position: absolute;
+  position: relative;
   padding: 15px 32px;
   color: white;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  top: 90%;
+  top: 100%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-55%, -5%);
   border-radius: 4px;
 }
 .button1 {background-color: #178A27;}
@@ -93,3 +135,95 @@ h2{
 .button2:hover{background: #31B0D5; transition: 300ms ;}
 .button3 {background-color: #852406;}
 .button3:hover{background: #C9302C; transition: 300ms ;}
+.readmore {
+  border: solid 1px;
+  position: absolute;
+  padding: 15px 32px;
+  border-color: gray;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  top: 90%;
+  left: 68%;
+  transform: translate(-25%, -25%);
+  border-radius: 12px;
+}
+.services{
+  background-image:url("file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/bg-2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 80px;
+  margin-left: -150px;
+  line-height: 16px;
+  color: white;
+}
+.services2{
+  text-align: justify;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  font-size: 15px;
+  height: 100%;
+  max-width: 74%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.box-service{
+  float:left;
+  flex: 1;
+  position: relative;
+  border: 10px solid transparent;
+  height: 100%;
+  width: 10%;
+  margin-left: 10px;
+  padding-right: 0px;
+  background-color: rgba(231, 231, 231, 0.534);
+}
+.box-service img{
+  vertical-align: top;
+  margin: -10px;
+}
+h5{
+  text-align: center;
+  font-size: 20px;
+}
+.readit{
+  border: solid 1px;
+  position: relative;
+  padding: 15px 32px;
+  border-color: gray;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-10%, -10%);
+}
+.details{
+  border: solid 1px;
+  position: relative;
+  padding: 15px 32px;
+  border-color: gray;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  top: 50%;
+  left: 30%;
+  transform: translate(-10%, -10%);
+}
