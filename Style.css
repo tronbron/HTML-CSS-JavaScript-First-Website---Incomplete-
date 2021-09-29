@@ -126,7 +126,7 @@ h3{
   cursor: pointer;
   top: 100%;
   left: 50%;
-  transform: translate(-55%, -5%);
+  transform: translate(-50%, -5%);
   border-radius: 4px;
 }
 .button1 {background-color: #178A27;}
@@ -160,7 +160,7 @@ h3{
   position: relative;
   width: 100%;
   height: 100%;
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: -150px;
   line-height: 16px;
   color: white;
@@ -187,15 +187,20 @@ h3{
   width: 10%;
   margin-left: 10px;
   padding-right: 0px;
+  padding-bottom: 35px;
   background-color: rgba(231, 231, 231, 0.534);
 }
 .box-service img{
   vertical-align: top;
   margin: -10px;
 }
-h5{
+.box-service p{
+  line-height: 20px;
+}
+.h5{
   text-align: center;
   font-size: 20px;
+  line-height: 0px;
 }
 .readit{
   border: solid 1px;
@@ -210,7 +215,8 @@ h5{
   border-radius: 12px;
   top: 50%;
   left: 30%;
-  transform: translate(-10%, -10%);
+  transform: translate(-10%, 0%);
+  margin-bottom: -10px;
 }
 .details{
   border: solid 1px;
@@ -226,4 +232,70 @@ h5{
   top: 50%;
   left: 30%;
   transform: translate(-10%, -10%);
+  margin-bottom: -10px;
+}
+.services3{
+  font-size: 15px;
+  margin-top: 30px;
+  margin-right: 320px;
+  padding-bottom: 20px;
+  background-color: rgba(231, 231, 231, 0.534);
+  outline-offset: 100px;
+}
+.services3 h6{
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.service-textbox{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.readmore2{
+  border: solid 1px;
+  position: relative;
+  padding: 15px 32px;
+  border-color: gray;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  background-image: url("file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/bg-3.jpg");
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
