@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
     <section>
@@ -83,7 +84,7 @@
         <div><img src="file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/4-2.jpg"></img></div>
         <h5 class="h5">Column Two</h5>
         <p>Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis.</p>
-        <button class="readit">Read It</button>
+        <span class="readit">Read It</span>
     </div>
 
     <div class="box-service">
@@ -96,7 +97,7 @@
         <div><img src="file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/4-4.jpg"></img></div>
         <h5 class="h5">Column Four</h5>
         <p>Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui libero, in tincidunt purus pretium quis.</p>
-        <button class="details">Details</button>
+        <span class="details">Details</span>
     </div>
 </section>
 
@@ -112,28 +113,35 @@
 
 <section>
     <div class="container">
+        <div>
+            <h7>Contact Form</h7>
+            <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id<br>
+                felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.<br>
+                Etiam a mi quis arcu varius condimentum.</p>
+        </div>
+
+        
         <form action="action_page.php">
+        <div class="col-sm-4">
+            <input type="text" id="name" name="name" placeholder="Name">
       
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>
+            <input type="text" id="email" name="email" placeholder="Email">
+        
+            <input type="text" id="subject" name="subject" placeholder="Subject">
+        </div>
+
+        <div class="col-sm-8">
+            <textarea rows="8" cols="50" id="subject" name="subject" placeholder="Your message here.." style="height:200px"></textarea>
+            <input type="submit" value="Send">
+        </div>
+       </form>
+    </div>
+    <div>
+        <h8>Use it free!</h8>
+        <p>“Conquer is free Bootstrap template from templatemo website.
+            No backlink is required to use this layout.”</p>
+    </div>
 </section>
+
 </body>
 </html>
