@@ -280,51 +280,70 @@ input[type=text]{
 
 input[type=textarea]{
   position: relative;
-  width: 100%;
-  height: 50%;
+  width: 50%;
+  height: 10%;
 }
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  padding: 12px 20px;
-  margin-top: 15px;
-  color: white;
-  background-color: #04AA6D;
-  }
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-.container {
+.container{
+  display:table;
   background-image: url("file:///C:/Users/James/Desktop/CS/HTML&CSS/conquer/img/bg-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
-  border: 1px solid transparent;
   position: relative;
+  border: 0px solid transparent;
   width: 100%;
   height: 100%;
   margin-top: 60px;
+  margin-left: 50px;
+  padding: 80px 100px;
 }
 .container h7{
-  font-size: 30px;
-  color: white;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 35px;
+  text-shadow: 2px 2px #333;
 }
 .container p{
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  color: #000;
+  position: relative;
   font-size: 16px;
-  padding-left: 0px;
-  padding-right: 0px;
   text-align: center;
-  background-color: #f2f2f2;
+  line-height: 25px;
+  margin-left: 190px;
+  margin-bottom: -30px;
+  padding: 15px;
 }
-.opacity{
-  background: white;
-  opacity: 50%;
+::placeholder{
+  color: black;
+}
+.col-lg-4{
+  margin: 50px 200px;
+}
+.col-lg-1{
+  margin:59px -200px;
+}
+input, textarea{
+  font-color: black;
+  background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+input[type=submit] {
+  background-color: rgb(26, 24, 24);
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
 }
